@@ -1,19 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - entry  point
- *
- * description: using sizeof to print the size of various typs.
- *
- * return: Always 0 (Success)
+ * main - print with proper grammar, but the outcome is a piece of art,
+ * Return: 0 if exited properly, non-zero otherwise
 */
 
 int main(void)
 {
-	printf ("size of a char: %lu byts(s)". sizeof(char));
-	printf ("size of a int: %lu byts(s)". sizeof(int));
-	printf ("size of a long int: %lu byts(s)". sizeof(long int));
-	printf ("size of a long long int: %lu byts(s)". sizeof(long long int));
-	printf ("size of a float: %lu byts(s)". sizeof(float));
-	return (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
